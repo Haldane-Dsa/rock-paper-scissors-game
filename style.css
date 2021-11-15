@@ -17,3 +17,13 @@ body {
         #131537 100%
     );
 }
+
+.scoreBoard {
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
