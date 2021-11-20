@@ -1,8 +1,9 @@
 // min 130
 
-let hands = document.querySelector('.hands');
+
 
 const pickUserHand = (hand) => {
+    let hands = document.querySelector('.hands');
     hands.style.display = 'none';
     console.log(hand);
 }
