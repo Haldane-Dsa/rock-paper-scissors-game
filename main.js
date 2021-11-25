@@ -1,4 +1,4 @@
-// min 140
+// 140 minutes
 
 const handOptions = {
     "rock": "/images/Rock.png",
@@ -7,14 +7,14 @@ const handOptions = {
 } 
 
 const pickUserHand = (hand) => {
-    console.log(hand);
-    let hands = document.querySelector('.hands');
-    hands.style.display = 'none';
-}
+    // hide current page
+    let hands = document.querySelector(".hands");
+    hands.style.display = "none";
 
-let contest = document.querySelector('.contest');
+    // show next page with hand you picked
+    let contest = document.querySelector(".contest");
 contest.style.display = "flex";
 
-// set user pick
-
-document.getElementById("userPickImage").src = handOptions(hand);
+    // set user pick
+    document.getElementById("userPickImage").src = handOptions[hand];
+}
