@@ -1,4 +1,4 @@
-// 156 minutes
+// 157 minutes
 
 const handOptions = {
     "rock": "/images/Rock.png",
